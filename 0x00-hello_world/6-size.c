@@ -1,4 +1,4 @@
-#include <stduo.h>
+#include <stdio.h>
 
 /**
  * main - main function
@@ -13,5 +13,4 @@ int main(void)
 	printf("Size of a long long int: %lu bytes(s)", sizeof(long long  int));
 	printf("Size of a float: %lu bytes(s)", sizeof(float));
 	return (0):
-		
-}
+}		
