@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main fucction
+ * main - main fuction
  *
  * Return: always 0
  */
