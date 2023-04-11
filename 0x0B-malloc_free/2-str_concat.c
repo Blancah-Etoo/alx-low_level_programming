@@ -7,7 +7,7 @@
  * @s1: the first string to concatenate
  * @s2: the second string to concatenate
  *
- * Return: the two string concatenate
+ * Return: the two string concatenated
  */
 char *str_concat(char *s1, char *s2)
 {
