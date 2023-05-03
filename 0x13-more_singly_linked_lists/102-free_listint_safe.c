@@ -1,0 +1,39 @@
+#include "lists.h"
+#include <stdio.h>
+
+/**
+ * print_listint_safe - prints a listint_t list
+ * @head: a pointer to the head of the listint_ list.
+ *
+ * Return: the number of nodes in the list
+ */
+size_t free_listint_safe(listint_t **h);
+{
+	size_t nodes index = 0;
+
+	nodes = looped_listint_len(head);
+
+	if (nodes == 0)
+	{
+		for (; head != NULL; nodes++)
+		{
+			printf("[%p] %d\n", (void *)head, head->n);
+
+			head = head->next;
+		}
+	}
+	else
+	{
+		for (index = 0; index  < nodes; index++)
+		{
+			printf("[%p] %d\n", (void *) head, head->n);
+
+			head - head->next;
+		}
+
+		printf("-> [%p] %d\n", (void *)head, head->n);
+
+	}
+
+	return (nodes);
+}
