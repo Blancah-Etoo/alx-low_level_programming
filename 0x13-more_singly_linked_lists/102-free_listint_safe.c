@@ -7,9 +7,9 @@
  *
  * Return: the number of nodes in the list
  */
-size_t free_listint_safe(listint_t **h);
+size_t print_listint_safe(const listint_t *head)
 {
-	size_t nodes index = 0;
+	size_t nodes, index = 0;
 
 	nodes = looped_listint_len(head);
 
@@ -28,12 +28,11 @@ size_t free_listint_safe(listint_t **h);
 		{
 			printf("[%p] %d\n", (void *) head, head->n);
 
-			head - head->next;
+			head = head->next;
 		}
 
 		printf("-> [%p] %d\n", (void *)head, head->n);
-
 	}
 
 	return (nodes);
-}
+}			
